@@ -1,0 +1,52 @@
+@import 'variables';
+
+.how-it-works {
+    background-color: $landing__main-color;
+    color: $how-it-works__text-color;
+    padding: 0px 40px 30px 40px;
+}
+
+.how-it-works__title {
+    padding: 10px 0px;
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.how-it-works__process {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 80px;
+    margin: 0 auto;
+    max-width: $max-width-2000;
+
+    p {
+        width: 200px;
+        text-align: center;
+    }
+
+    img {
+        position: relative;
+        left: 75px;
+        width: 50px;
+    }
+
+    div:hover {
+        img {
+            transform: scale(1.3);
+        }
+    }
+
+    &__title {
+        font-weight: bold;
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 767px) {
+    .how-it-works__process {
+        align-items: center;
+        flex-direction: column;
+    }
+}
