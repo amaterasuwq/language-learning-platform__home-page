@@ -1,0 +1,90 @@
+@import 'variables';
+
+.mobile-navigation__burger {
+    display: none;
+}
+
+@media (max-width: 767px) {
+    .header__navigation {
+        display: none;
+    }
+
+    .mobile-navigation__dark-mode {
+        display: none;
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        background-color: $mobile-navigation__dark-mode-color;
+        opacity: 0.6;
+        z-index: 2;
+        backdrop-filter: blur(10px);
+    }
+
+    .mobile-navigation__burger:hover + .mobile-navigation__dark-mode {
+        display: block;
+    }
+
+    .mobile-navigation__burger { 
+        display: block;
+        color: $mobile-navigation__text-color;
+        font-size: 24px;
+        
+        .icon {
+            position: absolute;
+            font-size: 30px;
+            margin: 30px 35px 0px 0px;
+            right: 0%;
+        }
+    }
+
+    .mobile-navigation__burger:hover .mobile-navigation__drop-down {
+        display: flex;
+    }
+
+    .mobile-navigation__drop-down {
+        display: none;
+        position: absolute;
+        box-shadow: 0px 0px 5px $mobile-navigation__drop-down__box-shadow;
+        flex-direction: column;
+        width: 100%;
+        z-index: 3;
+        text-align: center;
+        background: $mobile-navigation__drop-down__background;    
+    }
+
+    .mobile-navigation__drop-down__logo {
+        img {
+            width: 40%;
+        }
+    }
+
+    .mobile-navigation__drop-down__navbar {
+        margin: 15px 0px 20px 0px;
+        
+        a {
+            text-decoration: none;
+            color: $mobile-navigation__text-color;
+            line-height: 50px; 
+        }
+
+        &__component {
+            transition: all 0.5s cubic-bezier(0.215, 0.610, 0.355, 1);
+        }
+
+        &__component:hover {
+            background-color: $mobile-navigation__navbar__component-color;
+
+            a {
+                color: $mobile-navigation__text-color__hover;
+            }
+        }
+    }
+
+    .mobile-navigation__drop-down__exit {
+        margin-bottom: 20px;
+        
+        &:hover {
+            transform: scale(1.2);
+        }
+    }
+}

@@ -1,0 +1,37 @@
+// colors
+$landing__main-color: #e94b4b;
+$landing__box-shadow: #000;
+$mobile-navigation__text-color: #fff;
+$mobile-navigation__text-color__hover: #ff0000;
+$mobile-navigation__navbar__component-color: #fff;
+$mobile-navigation__dark-mode: #000;
+$mobile-navigation__drop-down__box-shadow: #000;
+$mobile-navigation__dark-mode-color: #000;
+$header-box-shadow: #a9a9a9;
+$header__navigation__active: #ff0000;
+$header__navigation__not-active: #fff;
+$header__navigation-text__hover: #ff0000;
+$language-boxes__learn-more: #008000;
+$language-boxes__animation__color-1: #ff0000;
+$language-boxes__animation__color-2: #0000ff;
+$language-boxes__animation__color-3: #ffff00;
+$language-boxes__animation__color-4: #008000;
+$language-boxes__animation__color-5: #ff58ff;
+$carousel__nav-arrows__hover-color: #fff;
+$footer__text-color: #fff;
+$footer__hover-color: #ff0000;
+$how-it-works__text-color: #fff;
+
+// backgrounds
+$header-background: linear-gradient(to bottom, rgba(233, 75, 75, 1) 0%, rgba(255, 255, 255, 0.53) 29%, rgba(255, 255, 255, 0) 62%);
+$mobile-navigation__drop-down__background: linear-gradient(to bottom, rgba(255,75,75,1) 0%,rgba(255,77,77,1) 0%,rgba(255,75,75,1) 13%,rgba(255,117,119,1) 49%,rgba(255,168,168,1) 85%);
+$carousel__teacher-background--english: linear-gradient(135deg, rgb(233, 75, 75) 1%, rgba(233, 75, 75, 0.91) 8%, rgba(233, 75, 75, 0.77) 19%, rgba(85, 84, 132, 0) 78%, rgba(30, 87, 153, 0) 100%);
+$carousel__teacher-background--spanish: linear-gradient(135deg, rgb(255, 255, 0) 1%, rgba(255, 255, 0, 0.91) 8%, rgba(255, 255, 0, 0.77) 19%, rgba(85, 84, 132, 0) 78%, rgba(30, 87, 153, 0) 100%);
+$carousel__teacher-background--german: linear-gradient(135deg, rgb(0, 128, 0) 1%, rgba(0, 128, 0, 0.91) 8%, rgba(0, 128, 0, 0.77) 19%, rgba(85, 84, 132, 0) 78%, rgba(30, 87, 153, 0) 100%);
+$carousel__teacher-background--french: linear-gradient(135deg, rgb(238, 130, 238) 1%, rgba(238, 130, 238, 0.91) 8%, rgba(238, 130, 238, 0.77) 19%, rgba(85, 84, 132, 0) 78%, rgba(30, 87, 153, 0) 100%);
+$carousel__teacher-background--mexican: linear-gradient(135deg, rgb(110, 45, 45) 1%, rgba(110, 45, 45, 0.91) 8%, rgba(110, 45, 45, 0.77) 19%, rgba(85, 84, 132, 0) 78%, rgba(30, 87, 153, 0) 100%);
+$carousel__teacher-background--polish: linear-gradient(135deg, rgb(0, 0, 255) 1%, rgba(0, 0, 255, 0.91) 8%, rgba(0, 0, 255, 0.77) 19%, rgba(85, 84, 132, 0) 78%, rgba(30, 87, 153, 0) 100%);
+
+// max-width
+$max-width-2000: 2000px;
+$max-width-1700: 1700px;
